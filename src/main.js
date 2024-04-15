@@ -17,7 +17,7 @@ function calcular() {
         for(; numero > 0; numero = Math.floor(numero/2) ) {
             let resto = numero % 2
             binario = resto + binario
-   document.getElementById("resultado").textContent = "O número binário correspondente é: " + binario;
+   document.getElementById("resultado").textContent = "O seu número binário correspondente é: " + binario;
         }
         
     });
